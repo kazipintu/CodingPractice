@@ -1,0 +1,55 @@
+body {
+
+    margin: 0;
+}
+
+.menubar {
+    background-color: #0000cc;
+    padding: 20px;
+    text-align: center;
+}
+
+.menubar a {
+    font-size: 20px;
+    padding: 20px;
+    color: azure;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menubar a:hover {
+
+    background-color: #33cc33;
+}
+
+.dropdown-services {
+    display: inline;
+    position: relative;
+
+}
+
+.dropdown {
+
+    position: absolute;
+    background-color: #ff6600;
+    top: 25px;
+    right: 0px;
+    text-align: left;
+    min-width: 125px;
+    display: none;
+
+}
+
+.dropdown a {
+
+    display: block;
+}
+
+.dropdown-services:hover .dropdown {
+
+    display: block;
+
+.dropdown a:hover {
+
+    background-color: 	#808080;
+}
