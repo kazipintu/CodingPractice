@@ -104,10 +104,8 @@ body {
     margin-right: 20px;
     margin-left: 10px;
     font-size: 14px;
-    text-decoration: none;
     text-align: center;
     background-color: #66ffff;
-    
     
 }
 
@@ -130,4 +128,7 @@ body {
    text-shadow: 2px 2px 2px;
 }
 
+.h1 {
 
+    text-decoration: none;
+}
