@@ -1,6 +1,6 @@
 body {
 
-    margin: 10;
+    margin: 20;
 }
 
 .menubar {
@@ -33,10 +33,10 @@ body {
 }
 
 .aboutus a {
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
     padding: 20px;
-    color: 	 #009933;
+    color: 	 #00cc66;
     text-decoration: none;
     cursor: pointer;
 }
@@ -46,21 +46,88 @@ body {
        text-shadow: 1.5px 2px 1.5px;
 }
 
-.row {
+.row1 {
 
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
 }
 
 .column1 {
 
-        margin-right: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-size: 19px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
         
     }
 
-.column1:nth-child(odd) {
+    .column1:nth-child(odd) {
 
-        background-color: #99ff99;
+        background-color: #d8d8d8;
 }
+
+.courses {
+
+    margin: 0px 500px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.courses a {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    color: 	 #ff6600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.courses a:hover {
+        color: 	#00cc66  ;
+       text-shadow: 1.5px 2px 1.5px;
+}
+
+.row2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.column2 {
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #66ffff;
+    
+    
+}
+
+.btn {
+
+    color: white;
+    background-color: #ff6600;
+    max-width: 100px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.h2 {
+
+    color: red;
+}
+
+.btn:hover {
+    color: 	#33ccff;
+   text-shadow: 2px 2px 2px;
+}
+
 
